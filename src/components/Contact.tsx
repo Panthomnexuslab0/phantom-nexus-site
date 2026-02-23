@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, MessageSquare, Check, HelpCircle, ExternalLink } from 'lucide-react';
@@ -110,7 +109,7 @@ export default function Contact() {
 
           <motion.div
             initial={{ opacity: 0, x: 30 }}
-n            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
