@@ -1,4 +1,3 @@
-import SecurityArchitecture from "./components/SecurityArchitecture";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Terms from './pages/Terms';
